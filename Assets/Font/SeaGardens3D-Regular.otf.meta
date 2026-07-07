@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9e780612747eeae46ae783c29f37436f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sea Gardens 3D
+  fontNames:
+  - Sea Gardens 3D
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 71797aaf8ff473149aa82d0e6f620d35, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

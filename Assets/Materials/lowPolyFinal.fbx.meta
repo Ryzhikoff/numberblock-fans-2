@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 5b9f7aa19ea02284ca890f5ec9e00d20
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bottom_01_LP
+    100002: Bottom_02_LP
+    100004: Bottom_03_LP
+    100006: Bottom_04_LP
+    100008: Bottom_05_LP
+    100010: Bottom_06_LP
+    100012: Bottom_07_LP
+    100014: Bottom_Part
+    100016: Cloth
+    100018: Cloth_01_LP
+    100020: Details_01_LP
+    100022: Grass
+    100024: Grass_01
+    100026: Ground
+    100028: Ground 1
+    100030: Leaf
+    100032: Leaf_01_LP
+    100034: //RootNode
+    100036: LP
+    100038: LP 1
+    100040: LP 2
+    100042: Plant
+    100044: Plant_01_LP
+    100046: Rock_01_LP
+    100048: Rock_02_LP
+    100050: Rocks
+    100052: Small_details
+    100054: Sticks
+    100056: Sticks_01
+    100058: Top_01_LP
+    100060: Top_02_LP
+    100062: Top_03_LP
+    100064: Top_04_LP
+    100066: Top_05_LP
+    100068: Top_06_LP
+    100070: Top_Part
+    100072: Tree
+    100074: Tree_01_LP
+    100076: VegetationGround
+    400000: Bottom_01_LP
+    400002: Bottom_02_LP
+    400004: Bottom_03_LP
+    400006: Bottom_04_LP
+    400008: Bottom_05_LP
+    400010: Bottom_06_LP
+    400012: Bottom_07_LP
+    400014: Bottom_Part
+    400016: Cloth
+    400018: Cloth_01_LP
+    400020: Details_01_LP
+    400022: Grass
+    400024: Grass_01
+    400026: Ground
+    400028: Ground 1
+    400030: Leaf
+    400032: Leaf_01_LP
+    400034: //RootNode
+    400036: LP
+    400038: LP 1
+    400040: LP 2
+    400042: Plant
+    400044: Plant_01_LP
+    400046: Rock_01_LP
+    400048: Rock_02_LP
+    400050: Rocks
+    400052: Small_details
+    400054: Sticks
+    400056: Sticks_01
+    400058: Top_01_LP
+    400060: Top_02_LP
+    400062: Top_03_LP
+    400064: Top_04_LP
+    400066: Top_05_LP
+    400068: Top_06_LP
+    400070: Top_Part
+    400072: Tree
+    400074: Tree_01_LP
+    400076: VegetationGround
+    2100000: Top
+    2100002: Bottom
+    2100004: DetailsCloth
+    2100006: OtherNature
+    2100008: Leaves
+    2100010: BigRocks
+    2100012: BigTree
+    2300000: Bottom_01_LP
+    2300002: Bottom_02_LP
+    2300004: Bottom_03_LP
+    2300006: Bottom_04_LP
+    2300008: Bottom_05_LP
+    2300010: Bottom_06_LP
+    2300012: Bottom_07_LP
+    2300014: Cloth_01_LP
+    2300016: Details_01_LP
+    2300018: Grass_01
+    2300020: Ground 1
+    2300022: Leaf_01_LP
+    2300024: Plant_01_LP
+    2300026: Rock_01_LP
+    2300028: Rock_02_LP
+    2300030: Sticks_01
+    2300032: Top_01_LP
+    2300034: Top_02_LP
+    2300036: Top_03_LP
+    2300038: Top_04_LP
+    2300040: Top_05_LP
+    2300042: Top_06_LP
+    2300044: Tree_01_LP
+    3300000: Bottom_01_LP
+    3300002: Bottom_02_LP
+    3300004: Bottom_03_LP
+    3300006: Bottom_04_LP
+    3300008: Bottom_05_LP
+    3300010: Bottom_06_LP
+    3300012: Bottom_07_LP
+    3300014: Cloth_01_LP
+    3300016: Details_01_LP
+    3300018: Grass_01
+    3300020: Ground 1
+    3300022: Leaf_01_LP
+    3300024: Plant_01_LP
+    3300026: Rock_01_LP
+    3300028: Rock_02_LP
+    3300030: Sticks_01
+    3300032: Top_01_LP
+    3300034: Top_02_LP
+    3300036: Top_03_LP
+    3300038: Top_04_LP
+    3300040: Top_05_LP
+    3300042: Top_06_LP
+    3300044: Tree_01_LP
+    4300000: Top_01_LP
+    4300002: Top_02_LP
+    4300004: Top_03_LP
+    4300006: Top_04_LP
+    4300008: Top_05_LP
+    4300010: Top_06_LP
+    4300012: Bottom_01_LP
+    4300014: Bottom_02_LP
+    4300016: Bottom_03_LP
+    4300018: Bottom_04_LP
+    4300020: Bottom_05_LP
+    4300022: Bottom_06_LP
+    4300024: Bottom_07_LP
+    4300026: Cloth_01_LP
+    4300028: Details_01_LP
+    4300030: Grass_01
+    4300032: Ground
+    4300034: Plant_01_LP
+    4300036: Leaf_01_LP
+    4300038: Sticks_01
+    4300040: Rock_01_LP
+    4300042: Rock_02_LP
+    4300044: Tree_01_LP
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

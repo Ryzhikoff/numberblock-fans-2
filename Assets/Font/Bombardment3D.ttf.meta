@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 59a31cbcaa231434382215109e7fa89a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bombardment 3D
+  fontNames:
+  - Bombardment 3D
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 500fa8572edce5a4280f9621628877d0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

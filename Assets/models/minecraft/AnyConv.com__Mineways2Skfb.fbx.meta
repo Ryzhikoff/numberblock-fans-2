@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 62f8075d602ca794f8a6769463b9b60c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Brown_Mushroom
+    100004: Brown_Mushroom_(block)
+    100006: Clay
+    100008: Coal_Ore
+    100010: Dandelion
+    100012: Dirt
+    100014: GLSL_TEST__-53_46_120_to_208_125_260
+    100016: Grass
+    100018: Grass_Block
+    100020: Gravel
+    100022: Iron_Ore
+    100024: Large_Flowers
+    100026: Lava
+    100028: Leaves
+    100030: Leaves_(Acacia/Dark_Oak)
+    100032: Monster_Egg
+    100034: Poppy
+    100036: Red_Mushroom_(block)
+    100038: Sand
+    100040: Snow_(layer)
+    100042: Stationary_Lava
+    100044: Stationary_Water
+    100046: Stone
+    100048: Water
+    100050: Wood
+    100052: Wood_(Acacia/Dark_Oak)
+    400000: //RootNode
+    400002: Brown_Mushroom
+    400004: Brown_Mushroom_(block)
+    400006: Clay
+    400008: Coal_Ore
+    400010: Dandelion
+    400012: Dirt
+    400014: GLSL_TEST__-53_46_120_to_208_125_260
+    400016: Grass
+    400018: Grass_Block
+    400020: Gravel
+    400022: Iron_Ore
+    400024: Large_Flowers
+    400026: Lava
+    400028: Leaves
+    400030: Leaves_(Acacia/Dark_Oak)
+    400032: Monster_Egg
+    400034: Poppy
+    400036: Red_Mushroom_(block)
+    400038: Sand
+    400040: Snow_(layer)
+    400042: Stationary_Lava
+    400044: Stationary_Water
+    400046: Stone
+    400048: Water
+    400050: Wood
+    400052: Wood_(Acacia/Dark_Oak)
+    2100000: Stone
+    2100002: Grass_Block
+    2100004: Dirt
+    2100006: Water
+    2100008: Stationary_Water
+    2100010: Lava
+    2100012: Stationary_Lava
+    2100014: Sand
+    2100016: Gravel
+    2100018: Iron_Ore
+    2100020: Coal_Ore
+    2100022: Wood
+    2100024: Leaves
+    2100026: Grass
+    2100028: Dandelion
+    2100030: Poppy
+    2100032: Brown_Mushroom
+    2100034: Snow_(layer)
+    2100036: Clay
+    2100038: Monster_Egg
+    2100040: Brown_Mushroom_(block)
+    2100042: Red_Mushroom_(block)
+    2100044: Leaves_(Acacia_Dark_Oak)
+    2100046: Wood_(Acacia_Dark_Oak)
+    2100048: Large_Flowers
+    2300000: Brown_Mushroom
+    2300002: Brown_Mushroom_(block)
+    2300004: Clay
+    2300006: Coal_Ore
+    2300008: Dandelion
+    2300010: Dirt
+    2300012: Grass
+    2300014: Grass_Block
+    2300016: Gravel
+    2300018: Iron_Ore
+    2300020: Large_Flowers
+    2300022: Lava
+    2300024: Leaves
+    2300026: Leaves_(Acacia/Dark_Oak)
+    2300028: Monster_Egg
+    2300030: Poppy
+    2300032: Red_Mushroom_(block)
+    2300034: Sand
+    2300036: Snow_(layer)
+    2300038: Stationary_Lava
+    2300040: Stationary_Water
+    2300042: Stone
+    2300044: Water
+    2300046: Wood
+    2300048: Wood_(Acacia/Dark_Oak)
+    3300000: Brown_Mushroom
+    3300002: Brown_Mushroom_(block)
+    3300004: Clay
+    3300006: Coal_Ore
+    3300008: Dandelion
+    3300010: Dirt
+    3300012: Grass
+    3300014: Grass_Block
+    3300016: Gravel
+    3300018: Iron_Ore
+    3300020: Large_Flowers
+    3300022: Lava
+    3300024: Leaves
+    3300026: Leaves_(Acacia/Dark_Oak)
+    3300028: Monster_Egg
+    3300030: Poppy
+    3300032: Red_Mushroom_(block)
+    3300034: Sand
+    3300036: Snow_(layer)
+    3300038: Stationary_Lava
+    3300040: Stationary_Water
+    3300042: Stone
+    3300044: Water
+    3300046: Wood
+    3300048: Wood_(Acacia/Dark_Oak)
+    4300000: Stone
+    4300002: Grass_Block
+    4300004: Dirt
+    4300006: Water
+    4300008: Stationary_Water
+    4300010: Lava
+    4300012: Stationary_Lava
+    4300014: Sand
+    4300016: Gravel
+    4300018: Iron_Ore
+    4300020: Coal_Ore
+    4300022: Wood
+    4300024: Leaves
+    4300026: Grass
+    4300028: Dandelion
+    4300030: Poppy
+    4300032: Brown_Mushroom
+    4300034: Snow_(layer)
+    4300036: Clay
+    4300038: Monster_Egg
+    4300040: Brown_Mushroom_(block)
+    4300042: Red_Mushroom_(block)
+    4300044: Leaves_(Acacia/Dark_Oak)
+    4300046: Wood_(Acacia/Dark_Oak)
+    4300048: Large_Flowers
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Mushroom
+    second: {fileID: 2100000, guid: d472d50f9067eb247bd19df746c4aa23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown_Mushroom_(block)
+    second: {fileID: 2100000, guid: 844672cf31808834390482c9760188e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clay
+    second: {fileID: 2100000, guid: 822dd7b1b5488504c89dc207c5b82e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coal_Ore
+    second: {fileID: 2100000, guid: a171fe5dd48ddb54abfc97624ee87d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dandelion
+    second: {fileID: 2100000, guid: 031e04a3d7ea8434cb504935e9aec3c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirt
+    second: {fileID: 2100000, guid: 8a3ceffb096eaf9418daf5e4616fa2b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: bba1bc657c1d3064fa22ca8eb2b1d3c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_Block
+    second: {fileID: 2100000, guid: 69749bd79bbe2474db3b31167834d954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gravel
+    second: {fileID: 2100000, guid: 3598da299eb23da4685f1ac5d9902542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron_Ore
+    second: {fileID: 2100000, guid: a463017b8fdc45d4885b3d6d7226a018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Large_Flowers
+    second: {fileID: 2100000, guid: 99dc19a0dddcb104f9e977f339da7ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lava
+    second: {fileID: 2100000, guid: 2bc11edb04218ba4e9f6d130e20c2476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: b67e51859457beb4e9f5c5db4105d41c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves_(Acacia_Dark_Oak)
+    second: {fileID: 2100000, guid: ecda1ca51bdbfc94d8527220367eb56f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monster_Egg
+    second: {fileID: 2100000, guid: 06ab0b6a2c5928b4fbf39942cc8abbd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poppy
+    second: {fileID: 2100000, guid: dba61997d9971bc439c885feb5fc844f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Mushroom_(block)
+    second: {fileID: 2100000, guid: eb66b635504d2724fa00b67d3136b134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: 2b632ba9821e73f46a723b05d0eefd34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow_(layer)
+    second: {fileID: 2100000, guid: 31f17559a2cf02f4a82cd2d7035c5ceb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stationary_Lava
+    second: {fileID: 2100000, guid: c30709446eb47524f8b4175cb0f8a2c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stationary_Water
+    second: {fileID: 2100000, guid: 197959d83876a9640b6a746d50fe0873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: feca54d2669649040b86a663689c62c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: 3ae5205ad9164cd4584c5633b6dd25c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: b97b5cc20cabbc54a96a6fd1defa56ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_(Acacia_Dark_Oak)
+    second: {fileID: 2100000, guid: c70c90ae1d2eb4d40998fa99097597ad, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

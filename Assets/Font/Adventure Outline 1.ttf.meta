@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 97b728c4206f4534592b3738796fc885
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Adventure Outline
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1dcb5fdb8bd22d14b9f71462afa550b4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

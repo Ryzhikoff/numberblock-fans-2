@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:\\program files\\unity\\hub\\editor\\*\\editor\\unity.exe\" *)",
+      "Bash(dir *)",
+      "Bash(dotnet *)",
+      "Bash(powershell *)",
+      "Bash(select-object *)",
+      "Bash(echo *)"
+    ]
+  },
+  "$version": 3
+}

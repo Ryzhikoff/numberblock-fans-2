@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &229703641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229703644}
+  - component: {fileID: 229703643}
+  - component: {fileID: 229703642}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &229703642
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229703641}
+  m_Enabled: 1
+--- !u!20 &229703643
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229703641}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &229703644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229703641}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1305262, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 8, z: -25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &630426226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630426227}
+  m_Layer: 0
+  m_Name: PortalSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630426227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630426226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1009913168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1009913169}
+  m_Layer: 0
+  m_Name: BlockSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1009913169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009913168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1243759973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243759975}
+  - component: {fileID: 1243759974}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1243759974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243759973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434f96dfbe944ce40b799b9333605355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eraConfigs:
+  - eraName: Ancient World
+    description: Numbers began with fingers and stones...
+    eraStyle: 0
+    numbers: 01000000010000000100000001000000010000000100000001000000010000000100000001000000
+    blockPrefabs:
+    - {fileID: 1253634689965458786, guid: 4740c9ceb3dc9354faf0fe2777a06d6d, type: 3}
+    - {fileID: 2665204272572229330, guid: 95062c3ec485b8c439e50dce901e2c0e, type: 3}
+    - {fileID: 6417570559482411320, guid: ff96305298af94e41b82511d84b685c5, type: 3}
+    - {fileID: 3246046297051191974, guid: f9cd33086e20f3c40a106bb9438f0d60, type: 3}
+    - {fileID: 1372916588318162098, guid: fe7fb1cc57043e74f8d4056186f59255, type: 3}
+    - {fileID: 2642584066926938619, guid: 59e7751ef89eeb14aa2ed1d182fb5d59, type: 3}
+    - {fileID: 5602199438506488073, guid: 18af774355a776d4586e433af15e847d, type: 3}
+    - {fileID: 1918220766507246362, guid: 9cf30ff8d37b4d44aa698d99028eb878, type: 3}
+    - {fileID: 9083535204230534694, guid: 7ac18c4eedebfe441a50817c16832988, type: 3}
+    - {fileID: 4414694445995582875, guid: 42ebe808d0b2c89419a2ecefa7f0d421, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 0.6, g: 0.4, b: 0.2, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 0.8, g: 0.5, b: 0.2, a: 1}
+    portalSize: 3
+  - eraName: Medieval Trade
+    description: Merchants counted coins in bustling markets...
+    eraStyle: 1
+    numbers: 01000000080000000800000008000000080000000800000008000000080000000800000008000000
+    blockPrefabs:
+    - {fileID: 4414694445995582875, guid: 42ebe808d0b2c89419a2ecefa7f0d421, type: 3}
+    - {fileID: 3675689822008077080, guid: 187b7afeac429cc449d12778d809880b, type: 3}
+    - {fileID: 8452021258749374543, guid: 126a2610f51a1614f83657bc4e015e19, type: 3}
+    - {fileID: 1541159868361826743, guid: 453e778d706810b4588bebec4b9c5492, type: 3}
+    - {fileID: 8540178604880604518, guid: 530c94bb84fe38d478dc830df1ee69ea, type: 3}
+    - {fileID: 8668048997714931800, guid: a56d5c643ac997245a2d839dc6c3bb57, type: 3}
+    - {fileID: 4529089967989207377, guid: aee2cf706a5e672418e24b0f98326dfd, type: 3}
+    - {fileID: 56862565470168704, guid: 6cf82029a7bec364d9b52270f177a895, type: 3}
+    - {fileID: 2809148492337663852, guid: 0c818d0cd39bd8143ade9f481099e9bf, type: 3}
+    - {fileID: 7366560694102323911, guid: 468511f8235238242a35682a9f3937ed, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 0.8, g: 0.7, b: 0.3, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 1, g: 1, b: 0, a: 1}
+    portalSize: 3
+  - eraName: Industrial Revolution
+    description: Steam engines and factories multiplied production...
+    eraStyle: 2
+    numbers: 080000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b000000
+    blockPrefabs:
+    - {fileID: 7366560694102323911, guid: 468511f8235238242a35682a9f3937ed, type: 3}
+    - {fileID: 6348435197241314020, guid: 552ca55598cb8c440b9bbc5f52f21705, type: 3}
+    - {fileID: 3583757252941220305, guid: 466bfe360af1c75499f110b55a7dcd2b, type: 3}
+    - {fileID: 1370396957088944823, guid: 34de9ac9a4adf804498e658115f50c1c, type: 3}
+    - {fileID: 4796540088249306304, guid: 62bae685abce1b24db8d7050006efbba, type: 3}
+    - {fileID: 72382583801819074, guid: 631ce424ff92ca44dbab4e608757bdc6, type: 3}
+    - {fileID: 6802567002463732097, guid: 85d01fd9b89ab054e886348265c80ce1, type: 3}
+    - {fileID: 4578153433237063562, guid: 924aa3711fdcca34abe7cc64c7d22476, type: 3}
+    - {fileID: 7651375354022032227, guid: 62d2a698894ba414391221af78ae3908, type: 3}
+    - {fileID: 622715144180724373, guid: cfa98c9a38b702f458641e7318be0b56, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 0.4, g: 0.3, b: 0.2, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 1, g: 0.5, b: 0, a: 1}
+    portalSize: 3
+  - eraName: Digital Age
+    description: Screens glow with data. Computers process millions...
+    eraStyle: 3
+    numbers: 1b0000004000000040000000400000007d000000d8000000
+    blockPrefabs:
+    - {fileID: 622715144180724373, guid: cfa98c9a38b702f458641e7318be0b56, type: 3}
+    - {fileID: 7418606836623286174, guid: c5fcb0cdcd5d6904a99e9930d9679347, type: 3}
+    - {fileID: 3627703441204570811, guid: a63659c69e462d2409bd8510e6669519, type: 3}
+    - {fileID: 6018672950090025529, guid: 37c1c01c206ff0e4fb3f9a2372b3ca39, type: 3}
+    - {fileID: 3669512248023977078, guid: 1c2c7b7b07c773f40ada3d5071d42a20, type: 3}
+    - {fileID: 4375551801720642385, guid: e4c28c61dad3cd144a6e83fc48de234c, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 0.2, g: 0.4, b: 0.6, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 0, g: 1, b: 1, a: 1}
+    portalSize: 3
+  - eraName: Space Age
+    description: Rockets pierce the sky. We count stars and planets...
+    eraStyle: 4
+    numbers: 5701000000020000e8030000e8030000
+    blockPrefabs:
+    - {fileID: 6796414344456976241, guid: 25875fc1a133baa4eb19ad577b7ed089, type: 3}
+    - {fileID: 6990756735411091452, guid: ee99480b46bdf6648a79053b5dc8e36a, type: 3}
+    - {fileID: 7174237987671006708, guid: c1a2880e84a2cef4692da81ed593966a, type: 3}
+    - {fileID: 4402534370551411220, guid: 01db28806c924fd4e89012507d83e21b, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 0.1, g: 0.1, b: 0.3, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 1, g: 0, b: 1, a: 1}
+    portalSize: 3
+  - eraName: Beyond Infinity
+    description: Numbers transcend comprehension...
+    eraStyle: 5
+    numbers: 000200000002000000020000
+    blockPrefabs:
+    - {fileID: 7812938863868391500, guid: 4257326f3dd049f4a95131c79646fbcf, type: 3}
+    - {fileID: 4519963217231126455, guid: ce11d57311e346840b121c2fa051a6e9, type: 3}
+    - {fileID: 8455829739220418000, guid: 32cf0c19666fccd4a87e294a87730cf9, type: 3}
+    skybox: {fileID: 0}
+    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    groundPrefab: {fileID: 0}
+    decorationPrefabs: []
+    portalColor: {r: 0.5, g: 0, b: 0.5, a: 1}
+    portalSize: 3
+  blockSpawnPoint: {fileID: 1009913169}
+  portalSpawnPoint: {fileID: 630426227}
+  mainCamera: {fileID: 229703643}
+  cameraSpeed: 2
+  cameraPositions: []
+  cameraRotations: []
+  eraTitleText: {fileID: 0}
+  numberText: {fileID: 0}
+  eraDescriptionText: {fileID: 0}
+  progressBarObject: {fileID: 0}
+  progressBarFill: {fileID: 0}
+  eraTransitionSound: {fileID: 0}
+  backgroundMusic: []
+  numberSounds: []
+  portalPrefab: {fileID: 0}
+  transitionEffectPrefab: {fileID: 0}
+  eraDuration: 15
+  transitionDuration: 3
+  delayBeforeStart: 2
+--- !u!4 &1243759975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243759973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935376742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935376744}
+  - component: {fileID: 1935376743}
+  m_Layer: 0
+  m_Name: EraManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1935376743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935376742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a126b32a99bfcb841a6aee1eaaa11338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainController: {fileID: 1243759974}
+  ancientDecorations: []
+  medievalDecorations: []
+  industrialDecorations: []
+  modernDecorations: []
+  futureDecorations: []
+  eternityDecorations: []
+  ancientGround: {fileID: 0}
+  medievalGround: {fileID: 0}
+  industrialGround: {fileID: 0}
+  modernGround: {fileID: 0}
+  futureGround: {fileID: 0}
+  eternityGround: {fileID: 0}
+  spawnAreaSize: {x: 50, y: 1, z: 50}
+  decorationCount: 5
+--- !u!4 &1935376744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935376742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2040526779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040526781}
+  - component: {fileID: 2040526780}
+  m_Layer: 0
+  m_Name: Narrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2040526780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040526779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc1893609a53814f95ba1018fcce759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrativeText: {fileID: 0}
+  eraTitleText: {fileID: 0}
+  numberFactText: {fileID: 0}
+  textSpeed: 0.05
+  displayDuration: 5
+  fadeDuration: 1
+  ancientNarratives:
+  - text: Long ago, humans counted on their fingers. One, two, three... The first
+      numbers were born.
+    eraTitle: ANCIENT WORLD
+    numberFact: The number 1 represents unity - the beginning of all things.
+    duration: 6
+  - text: Cave people marked tallys on bones and stones. Each mark was a number,
+      a memory.
+    eraTitle: ANCIENT WORLD
+    numberFact: Ancient bones show tally marks from 35,000 years ago!
+    duration: 6
+  - text: From fingers to stones - numbers helped track days, animals, and seasons.
+    eraTitle: ANCIENT WORLD
+    numberFact: The number 10 comes from counting all our fingers.
+    duration: 5
+  medievalNarratives:
+  - text: In bustling marketplaces, merchants counted coins. Numbers became wealth.
+    eraTitle: MEDIEVAL TRADE
+    numberFact: The word 'cent' comes from Latin 'centum' meaning 100.
+    duration: 6
+  - text: Gold coins clinked as traders exchanged goods. Mathematics powered commerce.
+    eraTitle: MEDIEVAL TRADE
+    numberFact: Medieval merchants invented double-entry bookkeeping.
+    duration: 5
+  - text: From 10 to 100 - numbers grew with trade routes across kingdoms.
+    eraTitle: MEDIEVAL TRADE
+    numberFact: The Silk Road spread numerical knowledge across continents.
+    duration: 5
+  industrialNarratives:
+  - text: Steam engines roared. Factories multiplied production. Numbers reached
+      hundreds.
+    eraTitle: INDUSTRIAL REVOLUTION
+    numberFact: The first mechanical computers used gears to calculate.
+    duration: 6
+  - text: Minecarts carried coal. Trains connected cities. Scale transformed the
+      world.
+    eraTitle: INDUSTRIAL REVOLUTION
+    numberFact: 1000 items could now be made in hours, not months.
+    duration: 5
+  - text: From hundreds to thousands - the age of mass production began.
+    eraTitle: INDUSTRIAL REVOLUTION
+    numberFact: The assembly line could produce 1000 units per day.
+    duration: 5
+  modernNarratives:
+  - text: Screens glow with data. Computers process millions of calculations per
+      second.
+    eraTitle: DIGITAL AGE
+    numberFact: Your phone has more computing power than NASA's moon mission.
+    duration: 6
+  - text: The internet connects billions. Numbers became invisible, yet everywhere.
+    eraTitle: DIGITAL AGE
+    numberFact: Over 1 million emails are sent every second.
+    duration: 5
+  - text: From thousands to millions - the digital revolution changed everything.
+    eraTitle: DIGITAL AGE
+    numberFact: 1 million seconds = 11.5 days. 1 billion seconds = 31.7 years!
+    duration: 6
+  futureNarratives:
+  - text: Rockets pierce the sky. We count stars, planets, galaxies.
+    eraTitle: SPACE AGE
+    numberFact: There are more stars than grains of sand on Earth.
+    duration: 6
+  - text: Billions become trillions as we measure the cosmos itself.
+    eraTitle: SPACE AGE
+    numberFact: The observable universe is 93 billion light-years across.
+    duration: 5
+  - text: From millions to billions - humanity reaches for the infinite.
+    eraTitle: SPACE AGE
+    numberFact: 1 trillion seconds = 31,709 years!
+    duration: 5
+  eternityNarratives:
+  - text: Numbers transcend comprehension. Centillion is just the beginning.
+    eraTitle: BEYOND INFINITY
+    numberFact: A centillion has 303 zeros. More than atoms in the universe!
+    duration: 7
+  - text: Beyond trillions lie numbers without names. Mathematics meets philosophy.
+    eraTitle: BEYOND INFINITY
+    numberFact: Infinity is not a number - it's a concept without end.
+    duration: 6
+  - text: From one to infinity - the journey of numbers is eternal.
+    eraTitle: BEYOND INFINITY
+    numberFact: Every number ever conceived exists in the realm of mathematics.
+    duration: 6
+  typewriterSound: {fileID: 0}
+  narrativeBackground: {fileID: 0}
+  enableTypewriterEffect: 1
+  enableFadeIn: 1
+  enableFadeOut: 1
+--- !u!4 &2040526781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040526779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1243759975}
+  - {fileID: 1935376744}
+  - {fileID: 2040526781}
+  - {fileID: 1009913169}
+  - {fileID: 630426227}
+  - {fileID: 229703644}

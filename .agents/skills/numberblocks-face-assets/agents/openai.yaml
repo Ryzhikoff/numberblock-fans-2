@@ -1,0 +1,4 @@
+interface:
+  display_name: "Numberblocks Face Assets"
+  short_description: "Create matching transparent Numberblocks faces"
+  default_prompt: "Use $numberblocks-face-assets to create a new face for an existing Numberblock."

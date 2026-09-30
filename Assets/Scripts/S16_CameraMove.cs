@@ -33,35 +33,35 @@ public class S16_CameraMove : MonoBehaviour {
     private void cameraMove() {
         float interpolationRatio = (float)elapsedFrames / interpolationFramesCount;
         Vector3 interpolatedPosition = Vector3.Lerp(startPosition, endPosition, interpolationRatio);
-        elapsedFrames = (elapsedFrames + 1) % (interpolationFramesCount + 1); // сбрасываем elapsedFrames в ноль после достижения (interpolationFramesCount + 1)
+        elapsedFrames = (elapsedFrames + 1) % (interpolationFramesCount + 1); // СЃР±СЂР°СЃС‹РІР°РµРј elapsedFrames РІ РЅРѕР»СЊ РїРѕСЃР»Рµ РґРѕСЃС‚РёР¶РµРЅРёСЏ (interpolationFramesCount + 1)
         transform.position = interpolatedPosition;
         if (Mathf.Abs(transform.position.x - endPosition.x) < 0.05f && Mathf.Abs(transform.position.z - endPosition.z) < 0.05f ) {
             setNextPosition();
         }
     }
 
-    public Transform target; // Цель, вокруг которой будет двигаться камера
-    public float distance = 5.0f; // Расстояние от цели
-    public float height = 2.0f; // Высота камеры над целью
-    public float rotationSpeed = 1.0f; // Скорость вращения камеры
+    public Transform target; // Р¦РµР»СЊ, РІРѕРєСЂСѓРі РєРѕС‚РѕСЂРѕР№ Р±СѓРґРµС‚ РґРІРёРіР°С‚СЊСЃСЏ РєР°РјРµСЂР°
+    public float distance = 5.0f; // Р Р°СЃСЃС‚РѕСЏРЅРёРµ РѕС‚ С†РµР»Рё
+    public float height = 2.0f; // Р’С‹СЃРѕС‚Р° РєР°РјРµСЂС‹ РЅР°Рґ С†РµР»СЊСЋ
+    public float rotationSpeed = 1.0f; // РЎРєРѕСЂРѕСЃС‚СЊ РІСЂР°С‰РµРЅРёСЏ РєР°РјРµСЂС‹
 
-    private Vector3 offset; // Смещение камеры относительно цели
+    private Vector3 offset; // РЎРјРµС‰РµРЅРёРµ РєР°РјРµСЂС‹ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ С†РµР»Рё
 
     void Start() {
-        // Рассчитываем начальное смещение камеры относительно цели
+        // Р Р°СЃСЃС‡РёС‚С‹РІР°РµРј РЅР°С‡Р°Р»СЊРЅРѕРµ СЃРјРµС‰РµРЅРёРµ РєР°РјРµСЂС‹ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ С†РµР»Рё
         offset = new Vector3(0, height, -distance);
     }
 
     void LateUpdate() {
         if (target != null) {
-            // Поворачиваем смещение вокруг цели вокруг оси Y
+            // РџРѕРІРѕСЂР°С‡РёРІР°РµРј СЃРјРµС‰РµРЅРёРµ РІРѕРєСЂСѓРі С†РµР»Рё РІРѕРєСЂСѓРі РѕСЃРё Y
             Quaternion rotation = Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
             offset = rotation * offset;
 
-            // Устанавливаем позицию камеры относительно цели
+            // РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РїРѕР·РёС†РёСЋ РєР°РјРµСЂС‹ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ С†РµР»Рё
             transform.position = target.position + offset;
 
-            // Смотрим на цель
+            // РЎРјРѕС‚СЂРёРј РЅР° С†РµР»СЊ
             transform.LookAt(target.position);
         }
     }

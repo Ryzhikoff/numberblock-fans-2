@@ -478,3 +478,13 @@ Assets/models/Chicken gun.meta
 # Unity package manifest must be tracked
 !/Packages/manifest.json
 !/Packages/packages-lock.json
+
+# Local video captures
+/[Rr]ecordings/
+/[Rr]ecordings.meta
+
+# Local music tracks; scene dialogue and number voices remain versioned.
+/Assets/Sound/487685__gr8horizon__dragon-power-training-loop.wav
+/Assets/Sound/487685__gr8horizon__dragon-power-training-loop.wav.meta
+/Assets/Sound/Survival Mode - Blue Deer Studio.mp3
+/Assets/Sound/Survival Mode - Blue Deer Studio.mp3.meta
